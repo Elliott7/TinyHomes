@@ -1,0 +1,450 @@
+//.App {
+//  text-align: center;
+//}
+//
+//.App-logo {
+//  height: 40vmin;
+//  pointer-events: none;
+//}
+//
+//.App-header {
+//  background-color: #282c34;
+//  min-height: 100vh;
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//  justify-content: center;
+//  font-size: calc(10px + 2vmin);
+//  color: white;
+//}
+//
+//.App-link {
+//  color: #61dafb;
+//}
+
+$primary-color-1: #161616;
+$primary-color-2: #fffeff;
+$primary-color-3: #3653cb;
+$primary-color-4: #717171;
+$primary-color-5: #ea7533;
+
+// ---------- UI ----------
+button {
+  background-color: $primary-color-3;
+  height: 40px;
+  width: 100px;
+  border-color: $primary-color-3;
+  color: $primary-color-2;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+// ---------- Navbar ----------
+.NavBar{
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  background-color: $primary-color-1;
+  color: $primary-color-2;
+
+
+  .hamburg{
+    display: none;
+    width: 70px;
+    height: auto;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+
+    ul{
+      list-style: none;
+      padding: 10px 0;
+
+      li{
+        display: inline;
+        padding: 10px 10px;
+        margin: 0 10px;
+        color: $primary-color-4;
+
+        a{
+          text-decoration: none;
+          color: $primary-color-4;
+        }
+
+      }li:hover{
+         transform: scale(0.95);
+       }
+    }
+  }
+}
+.unhide{
+  display: inline !important;
+}
+
+// ---------- Hero ----------
+
+.hero-cont{
+  min-height: 600px;
+  background-color: $primary-color-1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+
+  .hero-left{
+    text-align: left;
+    width: 600px;
+    padding-right: 30px;
+
+
+    h1 {
+      color: $primary-color-2;
+      font-size: 50px;
+    }
+    h3 {
+      color: $primary-color-4;
+      font-size: 15px;
+    }
+    .hero-search{
+      position: relative;
+      margin: 50px 0;
+      width: 500px;
+
+      input{
+        width: 500px;
+        height: 60px;
+        border-radius: 10px;
+        border-color: $primary-color-4;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      input:focus{
+        outline: none;
+      }
+
+      button{
+        position: absolute;
+        right: 10px;
+        z-index: 12;
+      }
+    }
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $primary-color-4;
+
+      h4{
+        margin: 0;
+        font-size: 40px;
+        color: $primary-color-2;
+
+        span{
+          color: $primary-color-5;
+        }
+      }
+
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+      }
+    }
+  }
+  .hero-right{
+    width: 600px;
+    height: 600px;
+    img{
+      margin-top: 20px;
+      border-radius: 40% 40% 10% 10%;
+      box-shadow: 0 0 50px 1px $primary-color-4;
+      max-width: 100%;
+      height: auto;
+    }
+
+  }
+}
+
+// ---------- Testimonials ----------
+
+.testimonials{
+  margin: 100px 0;
+  min-height: 300px;
+  background-color: $primary-color-2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  div{
+    flex: 1 0 auto;
+    width: 150px;
+    img{
+      max-width: 100%;
+      height: auto;
+      max-height: 300px;
+      opacity: 0.5;
+    }
+    p{
+      opacity: 0.5;
+    }
+  }
+}
+
+// ---------- Carousel ----------
+.carousel{
+  text-align: left;
+  margin: auto;
+  padding: 20px 50px;
+  width: 80%;
+
+  .car-text{
+    color: $primary-color-5;
+    font-size: 16px;
+  }
+  .orange{
+    color: $primary-color-5;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .carousel-cards{
+    display: flex;
+    justify-content: space-between;
+
+    .option-card{
+      width: 300px;
+      text-align: center;
+
+      img{
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+        border-radius: 30px;
+      }
+      p{
+        letter-spacing: 2px;
+        opacity: 0.8;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .card-name{
+        opacity: 1;
+      }
+      .card-desc{
+        letter-spacing: 1px;
+        font-size: 13px;
+        color: $primary-color-4;
+      }
+
+    }
+  }
+}
+
+// ---------- Footer ----------
+
+footer{
+  height: 150px;
+  background-color: $primary-color-1;
+  color: $primary-color-2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// ---------- AnimationLogo ----------
+.animation-logo{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100px;
+    height: auto;
+  }
+  img:nth-child(1){
+    animation: spin 20s infinite linear;
+  }
+
+  img:nth-child(2){
+    opacity: 0.8;
+  }
+  img:nth-child(3){
+    animation: ripple 1s infinite linear;
+  }
+  img:nth-child(4){
+    top: 10px;
+    left: 15px;
+    width: 75px;
+    opacity: 0.5;
+    animation: flash 2s infinite linear;
+  }
+  img:nth-child(5){
+    opacity: 0.2;
+    z-index: -1;
+    animation: spin 10s infinite linear;
+
+  }
+
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes ripple {
+  0% {
+    opacity: 1;
+
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes flash {
+  0%{
+    opacity: 0.3;
+  }
+  45%{
+    opacity: 0.1;
+  }
+  50%{
+    opacity: 0.3;
+  }
+  55%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 1200px){
+  .hero-cont{
+    .hero-left{
+      width: 300px;
+      padding-bottom: 30px;
+      .hero-search{
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .NavBar{
+    .logo{
+      position: absolute;
+      left: 50px;
+    }
+
+    .hamburg{
+      display: inline;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      transition: 1s;
+    }
+    .hamburg:hover {
+      cursor: pointer;
+      background-color: $primary-color-4;
+
+    }
+    nav{
+      display: none;
+      ul{
+        position: absolute;
+        top: 80px;
+        right: 30px;
+        background-color: $primary-color-2;
+        border: 1px solid black;
+
+        li{
+          display: block;
+          a{
+            color: $primary-color-1;
+          }
+        }
+      }
+      button{
+        position: absolute;
+        top: 260px;
+        right: 30px;
+        width: 108px;
+      }
+    }
+  }
+
+  .hero-cont{
+    flex-direction: column;
+
+    .hero-left{
+      padding-right: 0;
+      h1{
+        font-size: 30px;
+      }
+      h3{
+        font-size: 13px;
+      }
+      div{
+        h4{
+          font-size: 30px;
+        }
+      }
+    }
+    .hero-right{
+      flex-shrink: 1;
+      max-width: 400px;
+    }
+  }
+
+  .testimonials{
+    flex-flow: wrap;
+    div{
+      width: 150px;
+      img{
+        max-width: 150px;
+      }
+    }
+  }
+
+  .carousel{
+    padding: 0;
+  }
+  .carousel-cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .option-card{
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .hero-cont{
+    .hero-right{
+    flex-shrink: 1;
+    max-width: 300px;
+      height: 400px;
+  }
+}}
