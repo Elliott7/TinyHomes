@@ -200,11 +200,13 @@ button {
 .carousel{
   text-align: left;
   margin: auto;
+  min-height: 500px;
   padding: 20px 50px;
   width: 80%;
 
   .car-text{
     color: $primary-color-5;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
     font-size: 16px;
   }
   .orange{
@@ -358,22 +360,24 @@ footer{
       display: inline;
       position: absolute;
       top: 30px;
-      right: 30px;
+      right: 45px;
       transition: 1s;
     }
-    .hamburg:hover {
+    .hamburg:hover{
       cursor: pointer;
       background-color: $primary-color-4;
-
+      border-radius: 20px;
     }
     nav{
       display: none;
+      transition: 1s;
       ul{
         position: absolute;
-        top: 80px;
-        right: 30px;
+        top: 85px;
+        right: 27px;
         background-color: $primary-color-2;
-        border: 1px solid black;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
 
         li{
           display: block;
@@ -384,9 +388,11 @@ footer{
       }
       button{
         position: absolute;
-        top: 260px;
-        right: 30px;
-        width: 108px;
+        top: 265px;
+        right: 26px;
+        width: 109px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
       }
     }
   }
@@ -436,6 +442,7 @@ footer{
     padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
+    margin-bottom: 10px;
   }
 }
 
