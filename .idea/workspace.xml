@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced907ec-a9fe-4d46-bf3f-65827785c27f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/AnimationLogo/AnimationLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hero/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavBar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Testimonials/Testimonials.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638924563713</updated>
-      <workItem from="1638924565701" duration="18477000" />
+      <workItem from="1638924565701" duration="18782000" />
     </task>
     <servers />
   </component>
